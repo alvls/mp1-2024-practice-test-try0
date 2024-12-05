@@ -3,5 +3,9 @@
 // Если a + b <= INT_MIN, возвращать INT_MIN
 int sum_of_two_numbers(int a, int b)
 {
-  return 0;
+  long sum = (long)a + (long)b;
+
+  if (sum >= INT_MAX) return INT_MAX;
+  else if (sum <= INT_MIN) return INT_MIN;
+  else return (int)sum;
 }
