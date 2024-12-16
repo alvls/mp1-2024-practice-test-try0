@@ -1,3 +1,4 @@
+#include <stdio.h>
 // Задача 1. Найти сумму целых чисел a и b.
 // Если a + b >= INT_MAX, возвращать INT_MAX
 // Если a + b <= INT_MIN, возвращать INT_MIN
