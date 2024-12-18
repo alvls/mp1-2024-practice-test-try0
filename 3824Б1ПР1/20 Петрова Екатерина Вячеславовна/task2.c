@@ -2,5 +2,6 @@
 // Если a * b >= UINT_MAX, возвращать UINT_MAX
 unsigned int product_of_two_numbers(unsigned int a, unsigned int b)
 {
+	a;
   return 0;
 }
