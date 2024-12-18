@@ -5,5 +5,6 @@
 int sum_of_two_numbers(int a, int b)
 {
 	printf_s("Hello");
+	int p;
   return 0;
 }
